@@ -1,0 +1,16 @@
+package jh_21_30;
+
+import java.util.Scanner;
+
+public class jh21 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("두 정수를 입력 : ");
+        int a= scan.nextInt();
+        int b= scan.nextInt();
+        if (0<=a || b<=10){
+            double c = a*Math.pow(2,b);
+            System.out.println(c);
+        }
+    }
+}
